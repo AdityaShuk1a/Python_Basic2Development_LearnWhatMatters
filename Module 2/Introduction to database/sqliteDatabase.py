@@ -5,7 +5,7 @@ import sqlite3
 INSERT
 UPDATE
 SELECT
-CREATE
+    CREATE
 DELETE
 '''
 
@@ -26,7 +26,7 @@ datatypes in sqlite
 '''
 cur.execute("CREATE TABLE IF NOT EXISTS newTable( name TEXT, age INTEGER)")
 
-data = [("RAM", 34), ("Lakshman", 29), ("Kartik", 55)]
+data = [("kunal", 34)]
 
 # cur.executemany('''INSERT INTO newTable(name, age) VALUES (?, ?)
 # ''', data)
